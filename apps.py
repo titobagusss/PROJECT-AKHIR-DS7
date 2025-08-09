@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model dan vectorizer
-model = joblib.load("pac_model.joblib")
-vectorizer = joblib.load("tfidf_vectorizer.joblib")
+model = joblib.load("Logistic_Regression_FinalProject.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 
 # Setup halaman
 st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="centered")
